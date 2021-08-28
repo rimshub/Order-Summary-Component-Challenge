@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import "utilities";
+
+$primary-color-1: hsl(225, 100%, 94%);
+$primary-color-2: hsl(245, 75%, 52%);
+$hover-color: hsl(246, 96%, 71%);
+$neutral-color-1: hsl(225, 100%, 98%);
+$neutral-color-2: hsl(224, 23%, 55%);
+$neutral-color-3: hsl(223, 47%, 23%);
+
+$font-stack: "Red Hat Display", sans-serif;
+$p-font-size: 14px;
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: $primary-color-1;
+  margin: 0;
+  font-family: $font-stack;
+  img {
+    width: 100%;
+  }
+}
+
+.bg-img {
+  transform: translateY(-80px);
+}
+.card {
+  position: relative;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+  height: 525px;
+  border-radius: 15px;
+  margin: auto;
+  transform: translateY(-350px);
+  z-index: 10;
+
+  .img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  p {
+    color: $neutral-color-2;
+    font-size: $p-font-size;
+  }
+  h3 {
+    font-weight: 900;
+  }
+}
+
+.flex-card {
+  background-color: $neutral-color-1;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+}
+.flex-item-1 {
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.flex-item-2 {
+  display: flex;
+  align-items: center;
+
+  h5,
+  p {
+    margin: 0;
+    font-size: small;
+  }
+
+  a {
+    padding-left: 70px;
+    color: $primary-color-2;
+    font-size: small;
+  }
+  a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: $hover-color;
+  }
+}
+
+button {
+  padding: 0.6rem 5rem;
+  font-family: $font-stack;
+  font-weight: 700;
+  font-size: small;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  background-color: $primary-color-2;
+  box-shadow: 0px 10px 7px 3px $primary-color-1;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: $hover-color;
+}
+h5 {
+  font-weight: 900;
+  color: $neutral-color-2;
+  font-size: smaller;
+  padding: 0;
+}
+
+h5:hover {
+  color: $neutral-color-3;
+  cursor: Pointer;
+}
+
+@import "mobile";

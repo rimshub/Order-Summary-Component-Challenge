@@ -1,0 +1,19 @@
+@media (max-width: 375px) {
+  .bg-img {
+    display: none;
+  }
+  .card {
+    transform: translateY(80px);
+    //Mobile: 375px
+    //Desktop: 1440px
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-img {
+    display: none;
+  }
+  .card {
+    transform: translateY(80px);
+  }
+}

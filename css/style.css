@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.mx-2 {
+  margin: 0 2rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.px-2 {
+  padding: 0 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.mx-3 {
+  margin: 0 3rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0 3rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.mx-4 {
+  margin: 0 4rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.px-4 {
+  padding: 0 4rem;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.mx-5 {
+  margin: 0 5rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.px-5 {
+  padding: 0 5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #e0e8ff;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body img {
+  width: 100%;
+}
+
+.bg-img {
+  transform: translateY(-80px);
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+  height: 525px;
+  border-radius: 15px;
+  margin: auto;
+  transform: translateY(-350px);
+  z-index: 10;
+}
+
+.card .img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card p {
+  color: #7280a7;
+  font-size: 14px;
+}
+
+.card h3 {
+  font-weight: 900;
+}
+
+.flex-card {
+  background-color: #f5f7ff;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.flex-item-1 {
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.flex-item-2 {
+  display: flex;
+  align-items: center;
+}
+
+.flex-item-2 h5,
+.flex-item-2 p {
+  margin: 0;
+  font-size: small;
+}
+
+.flex-item-2 a {
+  padding-left: 70px;
+  color: #3829e0;
+  font-size: small;
+}
+
+.flex-item-2 a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #7c6efc;
+}
+
+button {
+  padding: 0.6rem 5rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: small;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #3829e0;
+  box-shadow: 0px 10px 7px 3px #e0e8ff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7c6efc;
+}
+
+h5 {
+  font-weight: 900;
+  color: #7280a7;
+  font-size: smaller;
+  padding: 0;
+}
+
+h5:hover {
+  color: #1f2f56;
+  cursor: Pointer;
+}
+
+@media (max-width: 375px) {
+  .bg-img {
+    display: none;
+  }
+  .card {
+    transform: translateY(80px);
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-img {
+    display: none;
+  }
+  .card {
+    transform: translateY(80px);
+  }
+}
