@@ -14,10 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 Challenge was to build order summary card component using any pre-processor. I used Sass.
 
-Users should be able to:
-
-- See hover states for interactive elements
-
 ### Links
 
 - Solution URL: [Github](https://github.com/rimshub/Order-Summary-Component-Challenge)
@@ -33,27 +29,10 @@ Users should be able to:
 
 ### What I learned
 
-This is my first project using Sass. I learned how to create multiple .scss files and get the single css file. I used visual studio code's sass compiler extension to compile it.  
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```Sass
-
-$variable-name: value;
- 
-.class-name {
-  color: papayawhip;
-}
-```
- 
-### Continued development
+This is my first project using Sass. I learned how to create multiple .scss files and get the single css file. I used visual studio code's sass compiler extension to compile it. 
 
 In future, I will be using Sass more often, as this project is quite simple so I couldn't apply many functionalities.
 
- 
 ## Author
 
 - Github - [@rimshub] (https://github.com/rimshub)
